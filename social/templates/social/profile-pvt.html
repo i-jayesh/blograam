@@ -1,0 +1,74 @@
+{% extends 'landing/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class="container" style="font-family: cursive;">
+    <div class="row mt-5">
+        <div class="col-md-5 col-sm-6">
+            <a href="{% url 'profile' user.pk %}" class="btn btn-light">Back To Profile</a>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-3">
+        <div class="col-md-5 col-sm-12 border-bottom">
+            <h5>Add a new Private Blog!</h5>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mt-3 mb-5">
+        <div class="col-md-5 col-sm-12 border-bottom">
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <div class="d-grid gap-2">
+                    <button class="btn btn-success mt-3">Submit!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <h3 class="py-4 justify-content-center position-relative"><font s color="whitesmoke"><b>Your Private Posts: </b></font></h3>
+    {% for post in posts %}
+    {% if user == request.user %}
+    <div class="row justify-content-center mt-3" width="10px"  style="max-width: 100%; background-image: url(https://img.freepik.com/free-photo/white-paper-texture-background_174431-58.jpg?size=626&ext=jpg);">
+        <div class="col-md-5 col-sm-12 border-bottom position-relative ">----------------------------------------------------------------
+            <div style="font-family:sans-serif";>
+                <a href="{% url 'profile' post.author.profile.pk %}">
+                    <img class="round-circle post-img" height="30" width="30" src="{{ post.author.profile.picture.url }}" />
+                </a>
+                <p class="post-text">
+                    <a class="text-primary post-link" href="{% url 'profile' post.author.profile.pk %}">@{{ post.author }}</a> {{ post.created_on }}
+                </p>
+            </div>
+            <div class="position-relative" style="font-family:sans-serif";>
+                {% if post.image %}
+                <img height="300"  src="{{ post.image.url }}" class="post-image" />
+                {% endif %}
+                <p>{{ post.body }}</p>
+                <a href="{% url 'post-detail' post.pk %}" class="stretched-link"></a>
+            </div>
+            
+            <div class="d-flex flex-row">
+                <form method="POST" action="{% url 'like' post.pk %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="next" value="{{ request.path }}">
+                    <button class="remove-default-btn" type="submit">
+                        <i class="far fa-thumbs-up"> <span>{{ post.likes.all.count }}</span></i>
+                    </button>
+                </form>
+                
+                <form method="POST" action="{% url 'dislike' post.pk %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="next" value="{{ request.path }}">
+                    <button class="remove-default-btn" type="submit">
+                        <i class="far fa-thumbs-down"> <span>{{ post.dislikes.all.count }}</span></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        {% endif %}
+    {% endfor %}
+            
+        </div>
+        {% endblock content %}
+    
