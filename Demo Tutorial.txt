@@ -1,0 +1,1 @@
+This is website in which you can write blog and publish them to be viewed by other users. You just have to make a account by siging up and you can start writing blogs. This website have a very simple user interface. In this you can also make a blog private.
