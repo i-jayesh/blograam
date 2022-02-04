@@ -4,6 +4,6 @@ A Blogging Website (Content Management System) project using DJANGO. Any user ca
  
 <p align="center">
     <a href="https://bloggraam.herokuapp.com/">
-        <img src="https://github.com/jayeshshaw/blograam/blob/master/logo.png?raw=true" widht="300px"> 
+        <img src="https://github.com/jayeshshaw/blograam/blob/master/logo.png?raw=true" width="50%" height="50%"> 
     </a>
 </p> 
