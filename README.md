@@ -7,7 +7,10 @@ A Blogging Website (Content Management System) project using DJANGO. Any user ca
         <img src="https://github.com/jayeshshaw/blograam/blob/master/logo.png?raw=true" width="50%" height="50%"> 
     </a>
 </p> 
-# Bloggram- How to Contribute
+
+
+
+# Bloggram- HOW TO CONTRIBUTE
 
 
 ## Prequisites
