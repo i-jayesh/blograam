@@ -5,6 +5,7 @@
 </p> 
 
 ---
+<h1> Blograam </h1>
 
 <p> 
     A Blogging Website (Content Management System) project using DJANGO. Any user can register as a blogger, follow any existing blogger, post some blogs, react to others blogs,etc.
