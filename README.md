@@ -1,16 +1,18 @@
 <p align="center">
     <a href="https://bloggraam.herokuapp.com/">
-        <img src="https://github.com/jayeshshaw/blograam/blob/master/logo.png?raw=true" width="30%" height="30%"> 
+        <img src="https://github.com/jayeshshaw/blograam/blob/master/logo.png?raw=true" width="30%" height="30%" alt="Blograam"> 
     </a>
 </p> 
 
+---
 
-<h1> Bloggram </h1>
+<p> 
+    A Blogging Website (Content Management System) project using DJANGO. Any user can register as a blogger, follow any existing blogger, post some blogs, react to others blogs,etc.
+</p>
 
-
-A Blogging Website (Content Management System) project using DJANGO. Any user can register as a blogger, follow any existing blogger, post some blogs, react to others blogs,etc.
-
-We have used DJANGO at the back-end and HTML, Bootstrap at front-end. We have plans to make the front-end using HTML CSS & JS and upscale the look and user experience of our Website. We are planning to provide more features to our users such as a space for private blogs (Draft) and much more.
+<p>
+    We have used DJANGO at the back-end and HTML, Bootstrap at front-end. We have plans to make the front-end using HTML CSS & JS and upscale the look and user experience of our Website. We are planning to provide more features to our users such as a space for private blogs (Draft) and much more.
+</p>
 
 <h4>Tech Stacks</h4>
 
@@ -21,11 +23,11 @@ We have used DJANGO at the back-end and HTML, Bootstrap at front-end. We have pl
 
 ---
 
+<br>
+
 <h2> How to contribute to Blograam </h2>
 
 <p> We would love to have your contibutions! See something you can help make better? Follow these steps to get started. </p>
-
-<br>
 
 <h3> Prerequisites: </h3> 
 
