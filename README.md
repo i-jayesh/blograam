@@ -5,47 +5,65 @@
 </p> 
 
 
-# Bloggram
+<h1> Bloggram </h1>
+
 
 A Blogging Website (Content Management System) project using DJANGO. Any user can register as a blogger, follow any existing blogger, post some blogs, react to others blogs,etc.
 
-
 We have used DJANGO at the back-end and HTML, Bootstrap at front-end. We have plans to make the front-end using HTML CSS & JS and upscale the look and user experience of our Website. We are planning to provide more features to our users such as a space for private blogs (Draft) and much more.
 
+<h4>Tech Stacks</h4>
+
+| Front End             | Back End        |
+|-----------------------|-----------------|
+| HTML, CSS, JavaScript | Django (Python) |
 
 
-### TECH STACKS TO BE USED:
-FRONT-END : HTML, CSS and JavaScript
+---
 
+<h2> How to contribute to Blograam </h2>
 
-BACK-END   : DJANGO (Python)
+<p> We would love to have your contibutions! See something you can help make better? Follow these steps to get started. </p>
 
+<br>
 
+<h3> Prerequisites: </h3> 
 
-# Bloggram- HOW TO CONTRIBUTE
+* [Git](https://git-scm.com/downloads) installed on your device.
+* A code editor similar to [Vs Code](https://code.visualstudio.com/download).
 
+<br>
 
-## Prequisites
-* [Git](https://git-scm.com/downloads) 
-* Code Editor like [Vs Code](https://code.visualstudio.com/download)
-
-## Local Setup
+<h3> Locale Setup </h3>
 
 1. Fork the repository.
-2. Clone the Forked repo
+2. Clone the Forked repo:
    * click on the green button which says "CODE".
    * copy the clonning link
    * open git bash or command prompt and run the code 
        ```
        git clone <repo link>
        ```
-## Running Using Vs code directly
-   * Open the bloggram folder in vs code, 
-   * install all the items in requirements.txt , example: pip install dj_static crispy forms .......
-   * In the command prompt (or VS Code terminal) run the command : python manage.py runserver.
-   * Click on the local host link generated OR Go to your browser and open local host.
-                             
-### Credential for login:
-FOR ROLE : ADMIN
+3. Make changes to your Fork.
+4. Create a Pull Request and link to any relevant issues.
+
+<br>
+
+<h3> Running Using VS Code directly </h3>
+
+<p> You can run the program using VSC with these steps. </p>
+    
+1. Open the bloggram folder in VS Code.
+2. Install all the items in requirements.txt , example: pip install dj_static crispy forms ...
+3. In the command prompt (or VS Code terminal) run the command : `python manage.py runserver`.
+4. Go to local host by:
+   * Click on the local host link generated **OR**
+   * Go to your browser and open local host.
+                          
+<br>
+                          
+<h3> Login </h3>
+<p>The credentials for admin role are:</p>
+
 * username -jayesh  
 * pass- jks2021 
