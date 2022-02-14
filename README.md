@@ -46,7 +46,7 @@
 1. Fork the repository.
 2. Clone the Forked repo:
    * click on the green button which says "CODE".
-   * copy the clonning link
+   * copy the cloning link
    * open git bash or command prompt and run the code 
        ```
        git clone <repo link>
@@ -61,7 +61,7 @@
 <p> You can run the program using VSC with these steps. </p>
     
 1. Open the bloggram folder in VS Code.
-2. Install all the items in requirements.txt , example: pip install dj_static crispy forms ...
+2. Install all the items in requirements.txt: `pip install dj_static crispy forms ...`
 3. In the command prompt (or VS Code terminal) run the command : `python manage.py runserver`.
 4. Go to local host by:
    * Click on the local host link generated **OR**
