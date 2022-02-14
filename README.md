@@ -5,6 +5,11 @@
 </p> 
 
 ---
+[![License](https://img.shields.io/badge/license-mit-blue.svg)](LICENSE)
+![Language count](https://img.shields.io/github/languages/count/Diversion2k22/blograam)
+![Top language](https://img.shields.io/github/languages/top/Diversion2k22/blograam)
+[![GitHub contributors](https://img.shields.io/github/contributors/Diversion2k22/blograam)](https://github.com/Diversion2k22/blograam/graphs/contributors)
+
 <h1> Blograam </h1>
 
 <p> 
