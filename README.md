@@ -30,7 +30,7 @@
 
 <br>
 
-<h2> How to contribute to Blograam </h2>
+<h2> How to Contribute to Blograam </h2>
 
 <p> We would love to have your contibutions! See something you can help make better? Follow these steps to get started. </p>
 
@@ -41,7 +41,7 @@
 
 <br>
 
-<h3> Locale Setup </h3>
+<h3> Setup and Contibution </h3>
 
 1. Fork the repository.
 2. Clone the Forked repo:
@@ -56,7 +56,7 @@
 
 <br>
 
-<h3> Running Using VS Code directly </h3>
+<h3> Running With VS Code </h3>
 
 <p> You can run the program using VSC with these steps. </p>
     
